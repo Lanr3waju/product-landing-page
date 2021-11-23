@@ -1,0 +1,133 @@
+
+.header {
+    display: flex;
+}
+#header{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    margin-bottom: 20px;
+    background-color: rgb(235, 235, 235);
+
+}
+#nav-bar{
+    display: grid;
+	grid-template-columns: 30% 50% 30%;
+	grid-gap: 60px;
+	width: inherit;
+    height: 100%;
+    padding: 10px;
+    margin-top: 20px;
+   
+}
+
+#main {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-family:'Segoe UI', Geneva, Tahoma, sans-serif;
+}
+
+::placeholder {
+    font-size: 1.1em;
+    font-family: 'Shippori Antique', sans-serif;
+
+}
+#submit {
+    width: 10%;
+    height: 30px;
+    background-color: rgb(128, 128, 20);
+   }
+
+#email {
+    height: 30px;
+    width: 20%;
+}
+
+b {
+    font-size: 1.3em;
+}
+
+#features {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: left;
+
+
+    display: grid;
+    width: 70%;
+    grid-template-columns: 40px 90%;
+    grid-template-rows: 40% 40% 40%;
+    justify-content: grid-start;
+    grid-column-gap: 80px;
+    grid-row-gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    
+}
+
+a:hover{
+    background-color: rgb(165, 165, 165);
+}
+
+#pricing {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 20px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+}
+h4 {
+    display:block;
+    background-color: rgb(212, 212, 212);
+    
+    padding: 5px;
+}
+#item1{
+    border: 2px solid black;
+}
+#item2{
+    border: 2px solid black;
+}
+#item3{
+    border: 2px solid black;
+}
+
+.submit {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(253, 183, 53);
+    font-size: 1.1em;
+    border: 0px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    
+}
+
+.submit:hover{
+    background-color: rgb(167, 110, 5);
+    
+}
+@media screen and (min-width:900px){
+    html{
+        background-color: rgb(235, 235, 235);
+    }
+}
