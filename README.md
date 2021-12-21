@@ -9,11 +9,12 @@ This is the third freecodecamp project on responsive web design, and it is a pro
 ## Built With
 
 - HTML
+
   - HTML Forms (email and submit button); to collect user's email and register it or store it.
   - Iframes (It is used to embed a trombone video from youtube's site)
   - Unordered List (To list out certain items on the page)
 
-- CSS 
+- CSS
   - Pseudo-selectors (hover; to add hover effect to certain elements)
   - Flexbox (It is used here to layout my nav-bar with the company's logo at the top of the page with a fixed position,
     and also used to layout the pricing section)

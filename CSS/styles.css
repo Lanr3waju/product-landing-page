@@ -28,7 +28,6 @@ body {
   list-style-type: none;
   width: 60%;
   margin-left: 30%;
-
 }
 
 ul li {
@@ -54,6 +53,8 @@ ul li {
 #links {
   display: flex;
   align-items: center;
+  margin-left: 450px;
+  text-align: center;
 }
 
 .foot {
@@ -64,15 +65,13 @@ ul li {
   border-top: 10px solid brown;
 }
 
-#icon1, #icon2, #icon3, #icon4 {
+#icon1,
+#icon2,
+#icon3,
+#icon4 {
   font-size: 2em;
   text-align: center;
   transition: transform 400ms ease-in-out 0s;
-}
-
-#links {
-  margin-left: 450px;
-  text-align: center;
 }
 
 .footer-text {
@@ -84,7 +83,10 @@ ul li {
   font-weight: bold;
 }
 
-#icon1:hover, #icon2:hover, #icon3:hover, #icon4:hover {
+#icon1:hover,
+#icon2:hover,
+#icon3:hover,
+#icon4:hover {
   transform: translate(0, 8px);
   transition: transform 400ms ease-in-out 0s;
   padding: 0;
@@ -110,11 +112,6 @@ ul li {
   width: 10%;
   height: 30px;
   background-color: rgb(128, 128, 20);
-}
-
-#email {
-  height: 30px;
-  width: 20%;
 }
 
 b {
