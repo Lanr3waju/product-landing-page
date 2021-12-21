@@ -1,26 +1,35 @@
 # Survey Form
 
-> This is a project that concentrates on the knowledge of HTML forms and the CSS styling of HTML forms
+> This website is a landing page on trombones, it has a navbar, iframe and other html and css elements and components.
 
 ![screenshot](./img/preview.png)
 
-Additional description about the project and its features.
+This is the third freecodecamp project on responsive web design, and it is a product landing page on trombones, it implements a number of html and css features; flexbox, iframe, grid, media query etc.
 
 ## Built With
 
-- HTML & CSS,
-- HTML Forms, CSS Pseudo elements, CSS pseudo-selectors
+- HTML
+  - HTML Forms (email and submit button); to collect user's email and register it or store it.
+  - Iframes (It is used to embed a trombone video from youtube's site)
+  - Unordered List (To list out certain items on the page)
+
+- CSS 
+  - Pseudo-selectors (hover; to add hover effect to certain elements)
+  - Flexbox (It is used here to layout my nav-bar with the company's logo at the top of the page with a fixed position,
+    and also used to layout the pricing section)
+  - Grid (It is used in the body of the html to outline the selling points of the product with its respective icon)
+  - Media query (It is used to make the webpage responsive to tablet devices)
 
 ## Live Demo
 
-[Live Demo Link](https://lanre-survey-form.netlify.app//)
+[Live Demo Link](https://landing-page-abass.netlify.app/)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/Lanr3waju/SURVEY-FORM.git
+git clone https://github.com/Lanr3waju/product-landing-page
 
 ```
 

@@ -18,6 +18,10 @@ body {
   background-color: rgb(235, 235, 235);
 }
 
+#header-img {
+  width: 300px;
+}
+
 .head {
   position: fixed;
   top: 0;
