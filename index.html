@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Estonia&family=Shippori+Antique&display=swap"
       rel="stylesheet"
     />
-    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Product Landing Page</title>
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
@@ -16,7 +16,7 @@
 
   <body>
     <nav class="head" id="header">
-      <span><img id="logo" src="./img/tromb.png" alt="trombone"/></span>
+      <div><img id="logo" src="./img/tromb.png" alt="trombone" /></div>
       <ul id="nav-bar">
         <li><a class="nav-link" href="#features">Features</a></li>
         <li><a class="nav-link" href="#frame">How it works</a></li>
@@ -26,36 +26,38 @@
 
     <main id="main">
       <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <label for="email" id="email-label"
-          ><span id="bold">Handcrafted, home-made masterpieces:</span></label
-        >
+        <label for="email" id="email-label"></label>
+        <div id="bold">Handcrafted, home-made masterpieces:</div>
         <input type="email" placeholder="Enter your mail" id="email" name="email" required />
         <input type="submit" id="submit" value="GET STARTED" />
       </form>
       <br /><br /><br />
 
-      <article id="features">
-        <div><img class="imag" src="./img/icon1.jpg" alt="icon1" /></div>
-        <div>
-          <span class="feat">Premium Materials</span>
-          Our trombones use the shiniest brass which is sourced locally. This will increase the
-          longevity of your purchase.
-        </div>
+      <section>
+        <h2>Features</h2>
+        <div id="features">
+          <div><img class="imag" src="./img/icon1.jpg" alt="icon1" /></div>
+          <div>
+            <div class="feat">Premium Materials</div>
+            Our trombones use the shiniest brass which is sourced locally. This will increase the
+            longevity of your purchase.
+          </div>
 
-        <div><img class="imag" src="./img/icon2.png" alt="icon2" /></div>
-        <div>
-          <span class="feat">Fast Shipping</span>
-          We make sure you recieve your trombone as soon as we have finished making it. We also
-          provide free returns if you are not satisfied.
-        </div>
+          <div><img class="imag" src="./img/icon2.png" alt="icon2" /></div>
+          <div>
+            <div class="feat">Fast Shipping</div>
+            We make sure you recieve your trombone as soon as we have finished making it. We also
+            provide free returns if you are not satisfied.
+          </div>
 
-        <div><img class="imag" src="./img/icon3.jpg" alt="icon3" /></div>
-        <div>
-          <span class="feat">Quality Assurance</span>
-          For every purchase you make, we will ensure there are no damages or faults and we will
-          check and test the pitch of your instrument.
+          <div><img class="imag" src="./img/icon3.jpg" alt="icon3" /></div>
+          <div>
+            <div class="feat">Quality Assurance</div>
+            For every purchase you make, we will ensure there are no damages or faults and we will
+            check and test the pitch of your instrument.
+          </div>
         </div>
-      </article>
+      </section>
 
       <div id="frame">
         <iframe
@@ -68,11 +70,11 @@
       </div>
       <br /><br /><br /><br />
 
-      <article id="pricing">
+      <div id="pricing">
         <section id="item1" class="price">
-          <h4>TENOR TROMBONE</h4>
+          <h3>TENOR TROMBONE</h3>
           <ul>
-            <li><h2>$600</h2></li>
+            <li><h4>$600</h4></li>
             <li>Lorem ipsum.</li>
             <li>Lorem ipsum.</li>
             <li>Lorem ipsum dolor.</li>
@@ -82,9 +84,9 @@
         </section>
 
         <section id="item2" class="price">
-          <h4>TENOR TROMBONE</h4>
+          <h3>TENOR TROMBONE</h3>
           <ul>
-            <li><h2>$600</h2></li>
+            <li><h4>$600</h4></li>
             <li>Lorem ipsum.</li>
             <li>Lorem ipsum.</li>
             <li>Lorem ipsum dolor.</li>
@@ -94,9 +96,9 @@
         </section>
 
         <section id="item3" class="price">
-          <h4>TENOR TROMBONE</h4>
+          <h3>TENOR TROMBONE</h3>
           <ul>
-            <li><h2>$600</h2></li>
+            <li><h4>$600</h4></li>
             <li>Lorem ipsum.</li>
             <li>Lorem ipsum.</li>
             <li>Lorem ipsum dolor.</li>
@@ -104,7 +106,7 @@
           </ul>
           <form><input type="submit" class="submit" value="Select" /></form>
         </section>
-      </article>
+      </div>
     </main>
 
     <div class="box"></div>
@@ -134,8 +136,10 @@
       </ul>
 
       <p class="footer-text">
-        ***This is not a fake portfolio. All the projects and contact details given are real.
-        <span id="copy">for Abass Abdul Wasi</span>
+        ***This is not a fake portfolio. All the projects and contact details given are real.<span
+          id="copy"
+          >for Abass Abdul Wasi</span
+        >
       </p>
     </footer>
   </body>
