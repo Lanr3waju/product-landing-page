@@ -137,9 +137,7 @@ b {
 }
 
 .feat {
-  font-weight: bold;
-  display: block;
-  margin-bottom: 5px;
+  display: inline;
 }
 
 .feats {
@@ -154,11 +152,9 @@ b {
   width: 70%;
   text-align: left;
   display: grid;
-  grid-template-columns: 40px 90%;
-  grid-template-rows: 40% 40% 40%;
+  grid-template-rows: auto auto auto;
   justify-content: left;
-  grid-column-gap: 80px;
-  grid-row-gap: 10px;
+  row-gap: 10%;
 }
 
 a {
@@ -210,6 +206,15 @@ form {
 
 h5 {
   font-size: 1.3em;
+  padding: 0;
+  margin: 0;
+}
+
+.sect {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+  column-gap: 5%;
 }
 
 .submit {
